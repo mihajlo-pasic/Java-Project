@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="826.0" prefWidth="892.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fact.it.epj2.HelloController">
+  <tabs>
+      <Tab fx:id="mapaTab" text="Mapa">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="734.0" prefWidth="847.0">
+               <children>
+                  <VBox alignment="CENTER" layoutX="6.0" layoutY="8.0" prefHeight="714.0" prefWidth="880.0">
+                     <children>
+                        <Label fx:id="naslov" prefHeight="42.0" prefWidth="123.0" text="SIMULACIJA" textAlignment="CENTER" />
+                        <GridPane fx:id="mapa" gridLinesVisible="true">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                        </GridPane>
+                     </children>
+                  </VBox>
+                  <HBox alignment="CENTER" layoutX="5.0" layoutY="729.0" prefHeight="54.0" prefWidth="882.0">
+                     <children>
+                        <Button fx:id="startDugme" alignment="CENTER" mnemonicParsing="false" onAction="#onStartButtonClick" text="Start" HBox.hgrow="ALWAYS" />
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+      <Tab text="Prevozna sredstva">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="autoTabela" layoutX="153.0" layoutY="23.0" prefHeight="142.0" prefWidth="623.0" AnchorPane.bottomAnchor="632.0" AnchorPane.leftAnchor="153.0" AnchorPane.rightAnchor="116.0" AnchorPane.topAnchor="23.0">
+                    <columns>
+                      <TableColumn fx:id="autoId" prefWidth="75.0" text="ID" />
+                      <TableColumn fx:id="autoProizvodjac" prefWidth="75.0" text="Proizvodjac" />
+                        <TableColumn fx:id="autoModel" prefWidth="59.20001220703125" text="Model" />
+                        <TableColumn fx:id="autoDatumNabavke" prefWidth="148.00001525878906" text="Datum nabavke" />
+                        <TableColumn fx:id="autoCijenaNabavke" prefWidth="90.40005493164062" text="Cijena" />
+                        <TableColumn fx:id="autoOpis" prefWidth="87.2000732421875" text="Opis" />
+                        <TableColumn fx:id="autoNivoBaterije" prefWidth="87.20001220703125" text="Nivo baterije" />
+                    </columns>
+                  </TableView>
+                  <TableView fx:id="bikeTabela" layoutX="204.0" layoutY="195.0" prefHeight="272.0" prefWidth="497.0">
+                     <columns>
+                        <TableColumn fx:id="bikeId" prefWidth="75.0" text="ID" />
+                        <TableColumn fx:id="bikeProizvodjac" prefWidth="75.0" text="Proizvodjac" />
+                        <TableColumn fx:id="bikeModel" prefWidth="75.0" text="Model" />
+                        <TableColumn fx:id="bikeCijenaNabavke" prefWidth="106.39996337890625" text="Cijena" />
+                        <TableColumn fx:id="bikeDomet" prefWidth="75.0" text="Domet" />
+                        <TableColumn fx:id="bikeNivoBaterije" prefWidth="88.79998779296875" text="Nivo baterije" />
+                     </columns>
+                  </TableView>
+                  <TableView fx:id="trotTabela" layoutX="203.0" layoutY="490.0" prefHeight="272.0" prefWidth="497.0">
+                     <columns>
+                        <TableColumn fx:id="trotId" prefWidth="75.0" text="ID" />
+                        <TableColumn fx:id="trotProizvodjac" prefWidth="75.0" text="Proizvodjac" />
+                        <TableColumn fx:id="trotModel" prefWidth="75.0" text="Model" />
+                        <TableColumn fx:id="trotCijenaNabavke" prefWidth="87.20004272460938" text="Cijena" />
+                        <TableColumn fx:id="trotMaxBrzina" prefWidth="94.39996337890625" text="Max brzina" />
+                        <TableColumn fx:id="trotNivoBaterije" prefWidth="88.0" text="Nivo baterije" />
+                     </columns>
+                  </TableView>
+                  <Label layoutX="204.0" layoutY="5.0" text="Automobili" />
+                  <Label layoutX="203.0" layoutY="172.0" prefHeight="18.0" prefWidth="42.0" text="Bicikli" />
+                  <Label layoutX="203.0" layoutY="467.0" text="Trotineti" />
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+      <Tab text="Kvarovi">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="kvarTabela" layoutX="118.0" layoutY="111.0" prefHeight="408.0" prefWidth="633.0">
+                    <columns>
+                      <TableColumn fx:id="kvarId" prefWidth="67.99999237060547" text="ID" />
+                      <TableColumn fx:id="kvarVrsta" minWidth="4.0" prefWidth="174.39999389648438" text="Vrsta prevoznog sredstva" />
+                        <TableColumn fx:id="kvarVrijeme" prefWidth="212.00003051757812" text="Vrijeme" />
+                        <TableColumn fx:id="kvarOpis" prefWidth="177.60000000000002" text="Opis kvara" />
+                    </columns>
+                  </TableView>
+                  <Label layoutX="118.0" layoutY="86.0" text="KVAROVI" />
+               </children></AnchorPane>
+        </content>
+      </Tab>
+      <Tab text="Poslovanje">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="sumarniIzvjestajButton" layoutX="156.0" layoutY="301.0" mnemonicParsing="false" onAction="#onSumarniIzvjestajButtonClick" prefHeight="98.0" prefWidth="244.0" text="Sumarni izvjestaj" />
+                  <Button fx:id="dnevniIzvjestajButton" layoutX="496.0" layoutY="301.0" mnemonicParsing="false" onAction="#onDnevniIzvjestajButtonClick" prefHeight="98.0" prefWidth="244.0" text="Dnevni izvjestaj" />
+                  <Label layoutX="418.0" layoutY="57.0" text="IZVJESTAJI" />
+                  <MenuButton fx:id="izbornikDatumaMeni" layoutX="578.0" layoutY="416.0" mnemonicParsing="false" text="DATUM?" />
+               </children></AnchorPane>
+        </content>
+      </Tab>
+      <Tab text="Dodatno">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="152.0" layoutY="200.0" text="Odaberite vrstu vozila:" />
+                  <ComboBox fx:id="vrstaVozilaComboBox" layoutX="277.0" layoutY="196.0" prefWidth="150.0" />
+                  <Button layoutX="446.0" layoutY="196.0" mnemonicParsing="false" onAction="#onPrikaziVoziloClick" text="Prikazi vozilo" />
+                  <Label fx:id="voziloDetailsLabel" layoutX="50.0" layoutY="285.0" />
+                  <Label layoutX="124.0" layoutY="75.0" prefHeight="18.0" prefWidth="469.0" text="Pronalazak prevoznih sredstava koja su donijela najviše gubitaka za svaku vrstu">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+  </tabs>
+</TabPane>

@@ -1,0 +1,16 @@
+R16
+Racun za iznajmljivanje
+==================================
+Ime korisnika: K2
+ID vozila: T2
+Datum i vrijeme iznajmljivanja: 02.06.2024 09:00
+Lokacija preuzimanja: {x=10, y=1}
+Lokacija ostavljanja: {x=12, y=18}
+Trajanje korišćenja (sekunde): 7
+Osnovna cijena: 17.5
+Cijena sa udaljenošću: 84.0
+Popust: 0.0
+Cijena sa popustom: 84.0
+Vrijednost promocije: 0.0
+Cijena sa promocijom: 84.0
+Ukupna cijena za plaćanje: 84.0

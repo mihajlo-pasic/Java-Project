@@ -1,0 +1,17 @@
+R4
+Racun za iznajmljivanje
+==================================
+Ime korisnika: K2
+Dokumentacija korisnika: LK:E56HPNKO VD:L53732A6
+ID vozila: A3
+Datum i vrijeme iznajmljivanja: 01.06.2024 09:30
+Lokacija preuzimanja: {x=15, y=15}
+Lokacija ostavljanja: {x=17, y=17}
+Trajanje korišćenja (sekunde): 8
+Osnovna cijena: 80.0
+Cijena sa udaljenošću: 384.0
+Popust: 0.0
+Cijena sa popustom: 384.0
+Vrijednost promocije: 0.0
+Cijena sa promocijom: 384.0
+Ukupna cijena za plaćanje: 384.0

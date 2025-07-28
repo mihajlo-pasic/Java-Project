@@ -1,0 +1,10 @@
+Sumarni izvještaj:
+Ukupan prihod: 5364.0
+Ukupan popust: 56.400000000000006
+Ukupno promocije: 219.6
+Ukupan iznos u užem dijelu grada: 273.6
+Ukupan iznos u širem dijelu grada: 5090.4
+Ukupan iznos za održavanje: 1072.8
+Ukupan iznos za popravke: 3728.0000000000005
+Ukupni troškovi kompanije: 1072.8
+Ukupan porez: -50.960000000000065

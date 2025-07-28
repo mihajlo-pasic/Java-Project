@@ -1,0 +1,16 @@
+R30
+Racun za iznajmljivanje
+==================================
+Ime korisnika: K1
+ID vozila: B3
+Datum i vrijeme iznajmljivanja: 03.06.2024 10:00
+Lokacija preuzimanja: {x=16, y=4}
+Lokacija ostavljanja: {x=16, y=19}
+Trajanje korišćenja (sekunde): 12
+Osnovna cijena: 60.0
+Cijena sa udaljenošću: 288.0
+Popust: 28.8
+Cijena sa popustom: 259.2
+Vrijednost promocije: 0.0
+Cijena sa promocijom: 259.2
+Ukupna cijena za plaćanje: 259.2

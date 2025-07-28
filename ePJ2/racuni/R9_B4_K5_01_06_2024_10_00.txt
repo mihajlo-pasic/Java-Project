@@ -1,0 +1,17 @@
+R9
+Racun za iznajmljivanje
+==================================
+DESIO SE KVAR! - cijena za plaćanje se nulira.
+Ime korisnika: K5
+ID vozila: B4
+Datum i vrijeme iznajmljivanja: 01.06.2024 10:00
+Lokacija preuzimanja: {x=7, y=9}
+Lokacija ostavljanja: {x=7, y=11}
+Trajanje korišćenja (sekunde): 15
+Osnovna cijena: 0.0
+Cijena sa udaljenošću: 0.0
+Popust: 0.0
+Cijena sa popustom: 0.0
+Vrijednost promocije: 0.0
+Cijena sa promocijom: 0.0
+Ukupna cijena za plaćanje: 0.0

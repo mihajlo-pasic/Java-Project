@@ -1,0 +1,17 @@
+R18
+Racun za iznajmljivanje
+==================================
+Ime korisnika: K4
+Dokumentacija korisnika: PS:PDJ63WF2 VD:NZ7EXSIG
+ID vozila: A3
+Datum i vrijeme iznajmljivanja: 02.06.2024 09:30
+Lokacija preuzimanja: {x=14, y=18}
+Lokacija ostavljanja: {x=12, y=2}
+Trajanje korišćenja (sekunde): 2
+Osnovna cijena: 20.0
+Cijena sa udaljenošću: 96.0
+Popust: 0.0
+Cijena sa popustom: 96.0
+Vrijednost promocije: 0.0
+Cijena sa promocijom: 96.0
+Ukupna cijena za plaćanje: 96.0

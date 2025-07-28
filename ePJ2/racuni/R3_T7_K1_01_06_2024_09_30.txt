@@ -1,0 +1,16 @@
+R3
+Racun za iznajmljivanje
+==================================
+Ime korisnika: K1
+ID vozila: T7
+Datum i vrijeme iznajmljivanja: 01.06.2024 09:30
+Lokacija preuzimanja: {x=8, y=3}
+Lokacija ostavljanja: {x=7, y=14}
+Trajanje korišćenja (sekunde): 8
+Osnovna cijena: 20.0
+Cijena sa udaljenošću: 96.0
+Popust: 0.0
+Cijena sa popustom: 96.0
+Vrijednost promocije: 0.0
+Cijena sa promocijom: 96.0
+Ukupna cijena za plaćanje: 96.0

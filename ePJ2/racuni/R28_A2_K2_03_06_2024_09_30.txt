@@ -1,0 +1,17 @@
+R28
+Racun za iznajmljivanje
+==================================
+Ime korisnika: K2
+Dokumentacija korisnika: LK:GUPY5FMF VD:2CBVZN51
+ID vozila: A2
+Datum i vrijeme iznajmljivanja: 03.06.2024 09:30
+Lokacija preuzimanja: {x=7, y=9}
+Lokacija ostavljanja: {x=16, y=1}
+Trajanje korišćenja (sekunde): 6
+Osnovna cijena: 60.0
+Cijena sa udaljenošću: 288.0
+Popust: 0.0
+Cijena sa popustom: 288.0
+Vrijednost promocije: 43.2
+Cijena sa promocijom: 244.8
+Ukupna cijena za plaćanje: 244.8
