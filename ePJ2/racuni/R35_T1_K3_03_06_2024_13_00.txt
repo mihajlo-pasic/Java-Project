@@ -1,0 +1,16 @@
+R35
+Racun za iznajmljivanje
+==================================
+Ime korisnika: K3
+ID vozila: T1
+Datum i vrijeme iznajmljivanja: 03.06.2024 13:00
+Lokacija preuzimanja: {x=9, y=12}
+Lokacija ostavljanja: {x=16, y=2}
+Trajanje korišćenja (sekunde): 9
+Osnovna cijena: 22.5
+Cijena sa udaljenošću: 108.0
+Popust: 0.0
+Cijena sa popustom: 108.0
+Vrijednost promocije: 16.2
+Cijena sa promocijom: 91.8
+Ukupna cijena za plaćanje: 91.8
